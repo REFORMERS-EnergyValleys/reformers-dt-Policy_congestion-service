@@ -1,0 +1,24 @@
+{
+  "method": "GET",
+  "url": "https://reformers01.ewi.tudelft.nl/policy-api/simulate/1842EM?electrification=0.5",
+  "path_params": {
+    "pc6": "1842EM"
+  },
+  "query_params": {
+    "electrification": 0.5
+  },
+  "expected_response": {
+    "status": "success",
+    "pc6": "1842EM",
+    "url": "/dashboard/processed/pc6_profile_1842EM.csv"
+  },
+  "result_file_columns": [
+    "timestamp",
+    "electrical_demand_gross_kwh",
+    "pv_generation_kwh",
+    "electrical_demand_net_kwh",
+    "heat_demand_kwh_th",
+    "hp_electricity_input_kwh",
+    "gas_input_kwh"
+  ]
+}
